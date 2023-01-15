@@ -1,0 +1,10 @@
+//3.- Pedir la edad al usuario y decir si es o no mayor de edad
+function mayor(edad) {
+    return edad >= 18
+}
+let edad = Number(prompt('Escribe tu edad'))
+if (mayor(edad)) {
+    console.log('Eres mayor de edad')
+} else {
+    console.log('Eres menor de edad')
+}
