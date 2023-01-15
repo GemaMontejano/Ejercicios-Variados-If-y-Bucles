@@ -1,0 +1,21 @@
+//2.- Pedir tres números al usuario y decir cual es el mayor
+let a = prompt("dime un número")
+let b = prompt("dime otro número")
+let c = prompt("Otro número más")
+a = Number(a)
+b = Number(b)
+c = Number(c)
+function mayor(a, b, c) {
+
+    if (a > b && a > c) {
+        return a
+    }
+    if (b > a && b > c) {
+        return b
+    }
+
+    else {
+        return c
+    }
+}
+console.log(mayor(a, b, c))
