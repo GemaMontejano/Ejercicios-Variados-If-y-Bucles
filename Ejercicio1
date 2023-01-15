@@ -1,0 +1,15 @@
+//1.- Pedir dos números al usuario y decir cual es el mayor.
+let a = prompt("dime un número")
+let b = prompt("dime otro número")
+a = Number(a)
+b = Number(b)
+function mayor(a, b) {
+
+    if (a > b) {
+        return a
+    }
+    else {
+        return b
+    }
+}
+console.log(mayor(a, b))
