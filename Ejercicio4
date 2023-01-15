@@ -1,0 +1,12 @@
+//4.- Una progresión geométrica empieza con un número al que se le va
+//multiplicando otro, por ejemplo: Si empezamos por el 2 y la razón (el
+//número que se multiplica) es 3 la serie sería: 2,6,18,54….
+function geometrica (inicial, razon, numero) {
+    let resultado = inicial
+    for (let i = 1; i < numero; i++) {
+      resultado *= razon
+    }
+    return resultado
+  }
+  
+  console.log(geometrica(5, 3, 15))
