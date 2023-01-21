@@ -1,0 +1,10 @@
+//Escribir un programa que le pida al usuario un número y
+//nos cuente la cantidad de divisores de ese número menores de 100
+let numero = prompt("Dime un número: ")
+let contar = 0
+for (let i = 1; i < 100; i++) {
+    if (numero % i === 0) {
+        contar++
+    }
+    console.log(" el número " + numero + "tiene " + contar + " divisores de sí mismo menores de 100.")
+}
