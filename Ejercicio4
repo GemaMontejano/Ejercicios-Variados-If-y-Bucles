@@ -1,12 +1,16 @@
 //4.- Una progresión geométrica empieza con un número al que se le va
 //multiplicando otro, por ejemplo: Si empezamos por el 2 y la razón (el
 //número que se multiplica) es 3 la serie sería: 2,6,18,54….
-function geometrica (inicial, razon, numero) {
-    let resultado = inicial
-    for (let i = 1; i < numero; i++) {
-      resultado *= razon
-    }
-    return resultado
-  }
-  
-  console.log(geometrica(5, 3, 15))
+//Hagamos un programa que le pida al usuario un número inicial y una razón
+//y nos muestre todos los términos de esa razón geométrica menores de
+//100.
+let inicio = 2
+const razon = 3
+while (inicio < 100) {
+  console.log(inicio)
+  inicio *= razon
+}
+
+for (let inicio = 2; inicio < 100; inicio *= razon) {
+  console.log(inicio)
+}
