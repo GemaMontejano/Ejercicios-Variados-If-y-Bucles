@@ -1,0 +1,14 @@
+//7.- Pedimos dos números al usuario y le decimos si los dos tienen la misma paridad 
+//(o sea, si los dos son pares o los dos son impares) o diferente.
+let numero1 = prompt("Introduzca un número: ")
+let numero2 = prompt("Introduzca otro número: ")
+
+for (let i = 1; i < 100; i++) {
+    if ((numero1 % 2 === 0 && numero2 % 2 === 0) || (numero1 % 2 !== 0 && numero2 % 2 !== 0)) {
+        console.log("estos números tienen la misma paridad")
+
+    }
+    else {
+        console.log("estos números no tienen la misma paridad")
+    }
+}
