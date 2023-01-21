@@ -1,0 +1,7 @@
+//Escribir un programa que nos cuente la cantidad de múltiplos de 5 menores de 100
+let contar = 0
+
+for (let i = 5; i<100; i += 5) {
+    contar++
+}
+console.log("En 100 tenemos " + contar + " múltiplos de 5")
