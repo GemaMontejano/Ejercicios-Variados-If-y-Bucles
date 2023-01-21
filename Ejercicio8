@@ -1,0 +1,8 @@
+//8.- Escribir un programa que le pida textos al usuario,
+// los imprima por la consola, y acabe cuando el usuario escriba ‘FIN’
+let texto =''
+while(texto !== "FIN"){
+    texto= prompt("Introduce un texto o FIN cuando quieras salir")
+    console.log(texto)
+}
+console.log("El programa ha terminado")
